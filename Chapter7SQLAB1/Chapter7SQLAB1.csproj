@@ -73,6 +73,7 @@
     <Content Include="StudentDataTier.aspx" />
     <Content Include="StudentNew.aspx" />
     <Content Include="tester.aspx" />
+    <Content Include="UpdateStudent.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -111,6 +112,13 @@
     </Compile>
     <Compile Include="tester.aspx.designer.cs">
       <DependentUpon>tester.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateStudent.aspx.cs">
+      <DependentUpon>UpdateStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateStudent.aspx.designer.cs">
+      <DependentUpon>UpdateStudent.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
